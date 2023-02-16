@@ -12,4 +12,10 @@ public class Onion
     private boolean isCut;
     private Layer layer;
     
+    public Onion(int newOnionNum, boolean cutState, int newLayerNumber, double newThickness)
+    {
+        onionNum = newOnionNum;
+        isCut = cutState;
+        layer = new Layer(newLayerNumber, newThickness);
+    }
 }
