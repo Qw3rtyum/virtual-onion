@@ -34,4 +34,10 @@ public class Layer
     public void setThickness(double newThicknessNum) {
         thickness = newThicknessNum;
     } 
+    
+    public void imprimirDetalles()
+    {
+        System.out.println("Número de la capa: " + layerNumber);
+        System.out.println("Grosor de las capa: " + thickness);
+    }
 }
