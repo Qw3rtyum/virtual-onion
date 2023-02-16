@@ -18,4 +18,20 @@ public class Layer
         layerNumber = newLayerNum;
         thickness = newThickness;
     }
+    
+    public int getLayerNumber() {
+        return layerNumber;
+    }
+    
+    public double getThickness() {
+        return thickness;
+    }
+    
+    public void setLayerNumber(int newLayerNumber) {
+        layerNumber = newLayerNumber;
+    }
+    
+    public void setThickness(double newThicknessNum) {
+        thickness = newThicknessNum;
+    } 
 }
