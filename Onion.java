@@ -18,4 +18,13 @@ public class Onion
         isCut = cutState;
         layer = new Layer(newLayerNumber, newThickness);
     }
+    public int getOnionNum() {
+        return onionNum;
+    }
+    public boolean getIsCut() {
+        return isCut;
+    }
+    public Layer getlayer() {
+        return layer;
+    }
 }
