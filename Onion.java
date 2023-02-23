@@ -45,4 +45,20 @@ public class Onion
         layer.setLayerNumber(newLayerNum);
         layer.setThickness(newThickness);
     }
+    
+    public void imprimirDetalles(){
+        String state;
+        if (isCut == true){
+            state = "Sí";
+        }
+        else {
+            state = "No";
+        }
+        System.out.println("-Cebolla-");
+        System.out.println("Numero de cebolla: " + onionNum);
+        System.out.println("¿Cortada?: " + state);
+        System.out.println();
+        System.out.println("-Capa-");
+        layer.imprimirDetalles();
+    }
 }
